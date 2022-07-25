@@ -26,7 +26,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 
-set(TS_FILES flies_zh_CN.ts)
 
 if(ANDROID)
   add_library(flies SHARED
